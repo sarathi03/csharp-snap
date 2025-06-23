@@ -1,0 +1,6 @@
+/home/sarathi/csharp-snap/csnap/obj/Debug/net8.0/csnap.csproj.AssemblyReference.cache
+/home/sarathi/csharp-snap/csnap/obj/Debug/net8.0/csnap.GeneratedMSBuildEditorConfig.editorconfig
+/home/sarathi/csharp-snap/csnap/obj/Debug/net8.0/csnap.AssemblyInfoInputs.cache
+/home/sarathi/csharp-snap/csnap/obj/Debug/net8.0/csnap.AssemblyInfo.cs
+/home/sarathi/csharp-snap/csnap/obj/Debug/net8.0/csnap.csproj.CoreCompileInputs.cache
+/home/sarathi/csharp-snap/csnap/obj/Debug/net8.0/csnap.sourcelink.json
