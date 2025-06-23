@@ -1,0 +1,27 @@
+name: csharp-snap
+base: core22
+version: '1.0.0'
+summary: A self-contained C# RabbitMQ producer
+description: |
+  Snap for a standalone C# RabbitMQ producer service.
+
+grade: stable
+confinement: strict
+
+parts:
+  csharp-snap:
+    plugin: dump
+    source: csnap/publish
+    stage-packages:
+      - libicu70  # 🔁 required ICU library
+    organize:
+      csnap: bin/csnap
+    override-build: |
+      chmod +x csnap
+      snapcraftctl build
+
+apps:
+  csharp-snap:
+    command: bin/csnap
+    plugs:
+      - network
