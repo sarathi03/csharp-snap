@@ -8,7 +8,7 @@ class Program
     {
         var factory = new ConnectionFactory()
         {
-            HostName = "10.18.8.226", 
+            HostName = "localhost", 
             Port = 5672
         };
 
